@@ -33,7 +33,7 @@ app.get("/eszak", (req, res) => {
       if (err) return res.json(err);
       return res.json(result)})
   })
-app.get("/regioo", (req, res) => {
+app.get("/>2", (req, res) => {
     const sql = "SELECT * FROM `regiok` WHERE Rid >= 2";
       db.query(sql, (err, result) => {
       if (err) return res.json(err);
