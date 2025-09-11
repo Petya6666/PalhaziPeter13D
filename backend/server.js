@@ -33,7 +33,7 @@ app.get("/eszak", (req, res) => {
       if (err) return res.json(err);
       return res.json(result)})
   })
-app.get("/>2", (req, res) => {
+app.get("/2", (req, res) => {
     const sql = "SELECT * FROM `regiok` WHERE Rid >= 2";
       db.query(sql, (err, result) => {
       if (err) return res.json(err);
@@ -44,8 +44,14 @@ app.get("/tipus", (req, res) => {
       db.query(sql, (err, result) => {
       if (err) return res.json(err);
       return res.json(result)})
-  })
-
+    })
+app.delete("/torles/:id", (req, res) => {
+    const sql = "DELETE FROM `regiok` WHERE Rid = ?";
+    db.query(sql, [req.params.id], (err, result) => {
+     if (err) return res.json(err);
+     return res.json(result)
+    })
+})
 app.listen(3001, () => {
 console.log("Server is running on port 3001");
 });
