@@ -1,0 +1,297 @@
+[
+  {
+    "oraSzam": 1,
+    "cim": "Bevezetés a webfejlesztésbe",
+    "leiras": "Weboldalak működése és HTML áttekintés."
+  },
+  {
+    "oraSzam": 2,
+    "cim": "Fejlesztői környezetek",
+    "leiras": "Az online és a professzionális fejlesztői eszközök áttekintése. A Visual Studio Code telepítése és alapvető használatának bemutatása."
+  },
+  {
+    "oraSzam": 3,
+    "cim": "Alapvető HTML tagek",
+    "leiras": "Legfontosabb tagek használata: h1-h6, p, img, a."
+  },
+  {
+    "oraSzam": 4,
+    "cim": "HTML attribútumok és szövegformázás",
+    "leiras": "Attribútumok: id, class, és szövegformázás."
+  },
+  {
+    "oraSzam": 5,
+    "cim": "HTML listák és táblázatok",
+    "leiras": "Listaelemek (ul, ol) és táblázatok (table)."
+  },
+  {
+    "oraSzam": 6,
+    "cim": "Weboldal-struktúra kialakítása",
+    "leiras": "HTML5 tagek: div, header, footer, nav."
+  },
+  {
+    "oraSzam": 7,
+    "cim": "HTML5 új elemei",
+    "leiras": "Section, article, figure, figcaption használata."
+  },
+  {
+    "oraSzam": 8,
+    "cim": "Űrlapok létrehozása HTML-ben",
+    "leiras": "Input, textarea, select, és button bemutatása."
+  },
+  {
+    "oraSzam": 9,
+    "cim": "Űrlap attribútumok és validálás",
+    "leiras": "Form validálás HTML eszközökkel."
+  },
+  {
+    "oraSzam": 10,
+    "cim": "Beágyazott média",
+    "leiras": "Video, audio, és iframe használata weboldalakon."
+  },
+  {
+    "oraSzam": 11,
+    "cim": "Egyszerű weboldal létrehozása",
+    "leiras": "HTML segítségével egy alap oldal készítése."
+  },
+  {
+    "oraSzam": 12,
+    "cim": "Weboldal hierarchikus szerkezete",
+    "leiras": "HTML tagek strukturált elhelyezése."
+  },
+  {
+    "oraSzam": 13,
+    "cim": "Hibakeresési technikák",
+    "leiras": "Hiányzó tagek és hibák azonosítása."
+  },
+  {
+    "oraSzam": 14,
+    "cim": "Mini projekt: személyes oldal",
+    "leiras": "Személyes bemutatkozó oldal létrehozása."
+  },
+  {
+    "oraSzam": 15,
+    "cim": "HTML számonkérés",
+    "leiras": "Tudás ellenőrzése és visszajelzés."
+  },
+  {
+    "oraSzam": 16,
+    "cim": "CSS alapjai",
+    "leiras": "Inline, internal, és external CSS bemutatása."
+  },
+  {
+    "oraSzam": 17,
+    "cim": "Színek és háttérképek",
+    "leiras": "Színek, árnyalatok, és háttérképek használata."
+  },
+  {
+    "oraSzam": 18,
+    "cim": "Betűtípusok és szövegformázás",
+    "leiras": "Font-family, font-size, és text-align."
+  },
+  {
+    "oraSzam": 19,
+    "cim": "Box modell",
+    "leiras": "Szegélyek, margók, és padding használata."
+  },
+  {
+    "oraSzam": 20,
+    "cim": "CSS pozicionálás",
+    "leiras": "Relatív, abszolút, és fix pozicionálás."
+  },
+  {
+    "oraSzam": 21,
+    "cim": "CSS szelektorok",
+    "leiras": "Alap és haladó szelektorok bemutatása."
+  },
+  {
+    "oraSzam": 22,
+    "cim": "Reszponzív tervezés alapjai",
+    "leiras": "Média lekérdezések használata reszponzív tervezéshez."
+  },
+  {
+    "oraSzam": 23,
+    "cim": "Bootstrap alapok",
+    "leiras": "Bootstrap grid rendszer bemutatása."
+  },
+  {
+    "oraSzam": 24,
+    "cim": "Bootstrap komponensek",
+    "leiras": "Gombok, kártyák, és más elemek használata."
+  },
+  {
+    "oraSzam": 25,
+    "cim": "Haladó CSS",
+    "leiras": "Animációk és átmenetek készítése."
+  },
+  {
+    "oraSzam": 26,
+    "cim": "Weboldalak validálása",
+    "leiras": "CSS hibák azonosítása és javítása."
+  },
+  {
+    "oraSzam": 27,
+    "cim": "Mini projekt: reszponzív oldal",
+    "leiras": "Reszponzív portfólió oldal készítése."
+  },
+  {
+    "oraSzam": 28,
+    "cim": "Záró gyakorlati feladat",
+    "leiras": "Reszponzív weboldal tervezése Bootstrap segítségével."
+  },
+  {
+    "oraSzam": 29,
+    "cim": "CSS számonkérés",
+    "leiras": "Tudás ellenőrzése és visszajelzés."
+  },
+  {
+    "oraSzam": 31,
+    "cim": "Bevezetés a JavaScript-be",
+    "leiras": "JavaScript alapok bemutatása és használata."
+  },
+  {
+    "oraSzam": 32,
+    "cim": "„Hello World!” program",
+    "leiras": "Első JavaScript kód írása és futtatása."
+  },
+  {
+    "oraSzam": 33,
+    "cim": "Változók és adattípusok",
+    "leiras": "Változók deklarálása és adattípusok kezelése."
+  },
+  {
+    "oraSzam": 34,
+    "cim": "Műveletek és operátorok",
+    "leiras": "Alapvető matematikai és logikai műveletek."
+  },
+  {
+    "oraSzam": 35,
+    "cim": "Események kezelése",
+    "leiras": "Kattintások és más események figyelése."
+  },
+  {
+    "oraSzam": 36,
+    "cim": "Függvények",
+    "leiras": "Függvények létrehozása és paraméterek használata."
+  },
+  {
+    "oraSzam": 37,
+    "cim": "Feltételek és ciklusok",
+    "leiras": "If-else szerkezetek és for/while ciklusok."
+  },
+  {
+    "oraSzam": 38,
+    "cim": "Objektumok és tömbök",
+    "leiras": "Adatok strukturált tárolása JavaScript-ben."
+  },
+  {
+    "oraSzam": 39,
+    "cim": "DOM manipuláció",
+    "leiras": "Weboldalelemek módosítása JavaScript segítségével."
+  },
+  {
+    "oraSzam": 40,
+    "cim": "Form validáció",
+    "leiras": "Űrlapok ellenőrzése JavaScript használatával."
+  },
+  {
+    "oraSzam": 41,
+    "cim": "JavaScript hibakeresés",
+    "leiras": "Konzol használata hibák keresésére."
+  },
+  {
+    "oraSzam": 42,
+    "cim": "Mini projekt: kalkulátor",
+    "leiras": "Egyszerű kalkulátor készítése JavaScript-tel."
+  },
+  {
+    "oraSzam": 43,
+    "cim": "Záró feladat",
+    "leiras": "Interaktív weboldal létrehozása."
+  },
+  {
+    "oraSzam": 44,
+    "cim": "JavaScript számonkérés",
+    "leiras": "Tudás ellenőrzése és visszajelzés."
+  },
+  {
+    "oraSzam": 46,
+    "cim": "Projekttervezés",
+    "leiras": "Célok meghatározása és projekt előkészítése."
+  },
+  {
+    "oraSzam": 47,
+    "cim": "Verziókezelés alapok",
+    "leiras": "Git alapvető parancsok és használat."
+  },
+  {
+    "oraSzam": 48,
+    "cim": "Távoli repository kezelése",
+    "leiras": "GitHub és távoli verziókezelés bemutatása."
+  },
+  {
+    "oraSzam": 49,
+    "cim": "Projekt setup",
+    "leiras": "Alapvető weboldal struktúra kialakítása."
+  },
+  {
+    "oraSzam": 50,
+    "cim": "Reszponzív design",
+    "leiras": "Bootstrap alapok integrálása a projektbe."
+  },
+  {
+    "oraSzam": 51,
+    "cim": "Interaktív elemek hozzáadása",
+    "leiras": "JavaScript-tel funkciók integrálása."
+  },
+  {
+    "oraSzam": 52,
+    "cim": "Hibakeresés",
+    "leiras": "Hibák azonosítása és javítása fejlesztőeszközökkel."
+  },
+  {
+    "oraSzam": 53,
+    "cim": "Csoportmunka",
+    "leiras": "Feladatok megosztása és együttműködés GitHub-on."
+  },
+  {
+    "oraSzam": 54,
+    "cim": "Mini projekt",
+    "leiras": "Egyszerű projekt csoportmunkában történő kidolgozása."
+  },
+  {
+    "oraSzam": 55,
+    "cim": "Dokumentáció",
+    "leiras": "Projekt dokumentációjának elkészítése."
+  },
+  {
+    "oraSzam": 56,
+    "cim": "Projekt tesztelése",
+    "leiras": "Tesztelési technikák bemutatása."
+  },
+  {
+    "oraSzam": 57,
+    "cim": "Egyéni projekt bemutatása",
+    "leiras": "Tanult technikák alkalmazása egyéni munkában."
+  },
+  {
+    "oraSzam": 58,
+    "cim": "Csoportos projekt bemutatása",
+    "leiras": "Csoportmunka és együttműködés értékelése."
+  },
+  {
+    "oraSzam": 59,
+    "cim": "Záró felkészülés",
+    "leiras": "Prezentációk előkészítése és gyakorlása."
+  },
+  {
+    "oraSzam": 60,
+    "cim": "Záró bemutató",
+    "leiras": "Projektek bemutatása és visszajelzés."
+  },
+  {
+    "oraSzam": 61,
+    "cim": "Végső értékelés",
+    "leiras": "Tanultak összegzése és kiértékelés."
+  }
+]
