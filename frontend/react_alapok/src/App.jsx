@@ -1,16 +1,16 @@
-
+import  {BrowserRouter,Route,Routess} from 'react-router-dom'
+import Home from './Home'
 function App() {
 
   return (
-    <>
-
-       <div>
-       <h1>Ez az oldal az APP modult jeleníti meg.</h1>
-       </div>
-
-    </>
+    <div>
+       <BrowserRouter>
+          <Routes>
+            <Route path='/' element={<Home/>}/>
+          </Routes>
+       </BrowserRouter>
+    </div>
   )
-
 }
 
 export default App
