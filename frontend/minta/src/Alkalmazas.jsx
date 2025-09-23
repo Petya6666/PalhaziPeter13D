@@ -23,13 +23,5 @@ function Alkalmazas() {
   );
 }
 
-// --- Alkalmazás Renderelése ---
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <Alkalmazas />
-    </BrowserRouter>
-  </React.StrictMode>
-);
 
 export default Alkalmazas;
