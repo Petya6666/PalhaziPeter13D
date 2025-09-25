@@ -1,5 +1,5 @@
 
-// Importáltam a szükséges csomagokat
+// Importáljuk a szükséges modulokat
 const express = require('express');
 const app = express();
 const cors = require('cors');
@@ -36,10 +36,10 @@ app.get("/kihasznaltsag", (req, res) => {
     return res.json(result)
     })
 });
-// Foglaltság lekérdezése
+// Foglaltság lekérdezése segített az AI mert nem tudtam megoldani mert nehéz volt a lekérdezés
 app.get("/foglaltsag", (req, res) => {
     const sql = `
-        SELECT vnev AS név, erk AS érkezés, tav AS távozás 
+        SELECT vnev AS név, erk AS érkezés, tav AS távozás  
         FROM foglalasok 
         JOIN vendegek  ON vendeg = vsorsz
         WHERE szoba IN (SELECT szoba FROM szobak) 
