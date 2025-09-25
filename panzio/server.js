@@ -28,7 +28,7 @@ app.get("/fogado", (req, res) => {
         return res.json(result)
     })
 })
-// Vendégek lekérdezése
+// Vendégek lekérdezése itt utánna néztem egy lekérdezésnek a w3schools oldalán
 app.get("/kihasznaltsag", (req, res) => {
     const sql = "SELECT szoba, COUNT(vendeg) AS vendegek, SUM(DATEDIFF(tav, erk)) AS vendegejszakak FROM foglalasok GROUP BY szoba ORDER BY vendegejszakak ASC, vendegek ASC;";
     db.query(sql, (err, result) => {
