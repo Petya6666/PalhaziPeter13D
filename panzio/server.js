@@ -39,11 +39,11 @@ app.get("/kihasznaltsag", (req, res) => {
 // Foglaltság lekérdezése
 app.get("/foglaltsag", (req, res) => {
     const sql = `
-        SELECT v.vnev AS név, f.erk AS érkezés, f.tav AS távozás 
-        FROM foglalasok f
-        JOIN vendegek v ON f.vendeg = v.vsorsz
-        WHERE f.szoba IN (SELECT szoba FROM szobak) 
-        ORDER BY v.vnev ASC;
+        SELECT vnev AS név, erk AS érkezés, tav AS távozás 
+        FROM foglalasok 
+        JOIN vendegek  ON vendeg = vsorsz
+        WHERE szoba IN (SELECT szoba FROM szobak) 
+        ORDER BY vnev ASC;
     `;
     db.query(sql, (err, result) => {
         if (err) return res.json(err);
